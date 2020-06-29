@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.http import Http404
 
 from .models import Pet
-# Create your views here.
 
 def home(request):
     pets = Pet.objects.all()
